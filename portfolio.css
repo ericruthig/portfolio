@@ -51,9 +51,14 @@ body {
     transition: transform .2s; 
 }
    
-#img-thumbnail:hover { 
-    transform: scale(1.2);S;
+.img-thumbnail:hover img { 
+    transform: scale(1.2);
     transform-origin: left;
+}
+.img-thumbnail img:hover {
+    transform: scale(1.2);
+    transform-origin: left;
+}
 }
 
 #headshot {
