@@ -26,7 +26,7 @@
 }
 
 .text-right {
-    text-align: right;
+    text-align: center;
 }
 
 body {
@@ -43,25 +43,34 @@ body {
 }
 
 .img-thumbnail {
+    justify-content: center;
+}    
+
+#img-thumbnail {
     transform: scale(1.2);
     transition: transform .2s; 
 }
    
-.img-thumbnail:hover { 
-    transform: scale(1.2);
+#img-thumbnail:hover { 
+    transform: scale(1.2);S;
     transform-origin: left;
 }
 
-.headshot {
+#headshot {
     padding: 50px;
     transition: transform .2s;
 }
    
-.headshot:hover { 
+#headshot:hover { S
     transform: scale(1.2);
 }
 
-.resume {
-    height: 100px;
-    width: 100px;
+.footer {
+    align-items: var(--bs-gray);
+    justify-content: center;
+}
+
+.projects {
+    column-gap: var(--bs-gray-dark);
+    flex-wrap: center;
 }
